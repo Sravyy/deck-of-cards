@@ -5,7 +5,7 @@ var suits = ["spades", "clubs", "hearts", "diamonds"];
 
   suits.forEach(function(suit){
     values.forEach(function(value){
-       $(".output").append("<li>" + value + "  of " + suit + "</li>");
+       $("#output ul").append("<li>" + value + "  of " + suit + "</li>");
     })
   })
 
